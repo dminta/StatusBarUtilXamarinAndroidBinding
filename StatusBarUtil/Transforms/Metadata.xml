@@ -1,0 +1,95 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.jaeger.library']" name="managedName">Jaeger.StatusBarUtil</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='hideFakeStatusBarView' and count(parameter)=1 and parameter[1][@type='android.app.Activity']]/parameter[@name='p0']" name="name">activity</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColor' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColor' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">color</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColor' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColor' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p1']" name="name">color</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColor' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p2']" name="name">statusBarAlpha</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorDiff' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorDiff' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">color</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p2']" name="name">color</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayout' and count(parameter)=4 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int'] and parameter[4][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayout' and count(parameter)=4 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int'] and parameter[4][@type='int']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayout' and count(parameter)=4 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int'] and parameter[4][@type='int']]/parameter[@name='p2']" name="name">color</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayout' and count(parameter)=4 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int'] and parameter[4][@type='int']]/parameter[@name='p3']" name="name">statusBarAlpha</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayoutDiff' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayoutDiff' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForDrawerLayoutDiff' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p2']" name="name">color</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForSwipeBack' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForSwipeBack' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">color</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForSwipeBack' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForSwipeBack' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p1']" name="name">color</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorForSwipeBack' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='int']]/parameter[@name='p2']" name="name">statusBarAlpha</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorNoTranslucent' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorNoTranslucent' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">color</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorNoTranslucentForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorNoTranslucentForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setColorNoTranslucentForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p2']" name="name">color</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucent' and count(parameter)=1 and parameter[1][@type='android.app.Activity']]/parameter[@name='p0']" name="name">activity</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucent' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucent' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">statusBarAlpha</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentDiff' and count(parameter)=1 and parameter[1][@type='android.app.Activity']]/parameter[@name='p0']" name="name">activity</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForCoordinatorLayout' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForCoordinatorLayout' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int']]/parameter[@name='p1']" name="name">statusBarAlpha</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForDrawerLayout' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForDrawerLayout' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForDrawerLayout' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout'] and parameter[3][@type='int']]/parameter[@name='p2']" name="name">statusBarAlpha</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForDrawerLayoutDiff' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForDrawerLayoutDiff' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageView' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageView' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p1']" name="name">needOffsetView</attr>
+
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageView' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='android.view.View']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageView' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='android.view.View']]/parameter[@name='p1']" name="name">statusBarAlpha</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageView' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='android.view.View']]/parameter[@name='p2']" name="name">needOffsetView</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageViewInFragment' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageViewInFragment' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p1']" name="name">needOffsetView</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageViewInFragment' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='android.view.View']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageViewInFragment' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='android.view.View']]/parameter[@name='p1']" name="name">statusBarAlpha</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTranslucentForImageViewInFragment' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='android.view.View']]/parameter[@name='p2']" name="name">needOffsetView</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTransparent' and count(parameter)=1 and parameter[1][@type='android.app.Activity']]/parameter[@name='p0']" name="name">activity</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTransparentForDrawerLayout' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTransparentForDrawerLayout' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.support.v4.widget.DrawerLayout']]/parameter[@name='p1']" name="name">drawerLayout</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTransparentForImageView' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTransparentForImageView' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p1']" name="name">needOffsetView</attr>
+  
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTransparentForImageViewInFragment' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p0']" name="name">activity</attr>
+  <attr path="/api/package[@name='com.jaeger.library']/class[@name='StatusBarUtil']/method[@name='setTransparentForImageViewInFragment' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.view.View']]/parameter[@name='p1']" name="name">needOffsetView</attr>
+  
+</metadata>
