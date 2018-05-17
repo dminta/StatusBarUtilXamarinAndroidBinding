@@ -2,6 +2,8 @@
 
 [StatusBarUtil](https://github.com/laobie/StatusBarUtil) library v1.4.0 included.
 
+Download [Jaeger.StatusBarUtil](https://www.nuget.org/packages/Jaeger.StatusBarUtil) package from nuget.org.
+
 Sample app contains basic bindings for libraries:
 * [BottomNavigationBar](https://github.com/Ashok-Varma/BottomNavigation),
 * [Slidr](https://github.com/r0adkll/Slidr).
